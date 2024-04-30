@@ -1,0 +1,37 @@
+{
+  "header": "การจัดการหน้าฟอร์ม",
+  "moveShape": "Move Shape",
+  "movePosition": "Move Position",
+  "test": {
+    "first": {
+      "title": "แบบทดสอบที่ 1",
+      "desc": "การจัดการหน้าเว็ป"
+    },
+    "second": {
+      "title": "แบบทดสอบที่ 2",
+      "desc": "การจัดการหน้าฟอร์ม"
+    }
+  },
+  "form": {
+    "title": "คำนำหน้า",
+    "name": "ชื่อจริง",
+    "surname": "นามสกุลจริง",
+    "dob": "วันเกิด",
+    "dobPlaceholder": "เดือน/วัน/ปี",
+    "gender": "เพศ",
+    "male": "ผุ้ชาย",
+    "female": "ผู้หญิง",
+    "notSpecific": "ไม่ระบุ",
+    "national": "สัญชาติ",
+    "nationalPlaceholder": "--กรุณาเลือก--",
+    "citizenId": "เลขบัตรประชาชน",
+    "phone": "หมายเลขโทรศัพท์มือถือ",
+    "passport": "หนังสือเดินทาง",
+    "salary": "เงินเดือนที่คาดหวัง"
+  },
+  "clear": "ล้างข้อมูล",
+  "submit": "ส่งข้อมูล",
+  "action": "จัดการ",
+  "selectAll": "เลือกทั้งหมด",
+  "confirmMessage": "คุณแน่ใจหรือไม่ที่จะล้างข้อมูลนี้ ?"
+}

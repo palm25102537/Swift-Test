@@ -1,0 +1,203 @@
+:root {
+  --orange: #ffa200;
+  --lime: #6eda78;
+}
+
+body {
+  background: linear-gradient(to right, var(--lime), var(--orange));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h-app {
+  height: 100dvh;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.p-2 {
+  padding: 8px;
+}
+
+.p-4 {
+  padding: 16px;
+}
+
+.px-10 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.gap-5 {
+  gap: 20px;
+}
+
+.gap-7 {
+  gap: 28px;
+}
+
+.mt-10 {
+  margin-top: 40px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-10 {
+  margin-bottom: 40px;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid rgba(0, 0, 0, 0.219);
+}
+
+button:has(span.arrow) {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.trans-down {
+  transform: rotate(180deg);
+}
+
+.trans-right {
+  transform: rotate(90deg);
+}
+
+.trans-left {
+  transform: rotate(-90deg);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom-0 {
+  bottom: -9%;
+  transform: translateY(9%);
+}
+
+.basis-200 {
+  flex-basis: 200px;
+}
+
+.basis-300 {
+  flex-basis: 300px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.bg-lime {
+  background-color: var(--lime);
+}
+
+.text-white {
+  color: white;
+}
+
+.tag {
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.container {
+  width: 100%;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.border-solid-black {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.card {
+  min-width: 300px;
+  background: white;
+  padding: 16px;
+  color: black;
+  &:hover,
+  &:active,
+  &:visited {
+    cursor: pointer;
+  }
+}

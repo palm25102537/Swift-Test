@@ -1,0 +1,37 @@
+{
+  "header": "Form",
+  "moveShape": "Move Shape",
+  "movePosition": "Move Position",
+  "test": {
+    "first": {
+      "title": "Test 1",
+      "desc": "Layout & Style"
+    },
+    "second": {
+      "title": "Test 2",
+      "desc": "Form & Table"
+    }
+  },
+  "form": {
+    "title": "Title",
+    "name": "Name",
+    "surname": "Surname",
+    "dob": "Date of Birth",
+    "dobPlaceholder": "MM/DD/YYYY",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "notSpecific": "Not specific",
+    "national": "National",
+    "nationalPlaceholder": "--Please Select--",
+    "citizenId": "Citizen Id",
+    "phone": "Phone",
+    "passport": "Passport",
+    "salary": "Expected Salary"
+  },
+  "clear": "Clear",
+  "submit": "Submit",
+  "action": "Action",
+  "selectAll": "Select All",
+  "confirmMessage": "Are you sure you want to clear this data?"
+}
